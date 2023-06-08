@@ -1,8 +1,0 @@
-- name: configuring NodeJS Repos
-  ansible.builtin.shell: curl -sL https://rpm.modesource.com/setup_lts.x | bash
-
-- name: Install NodeJs
-  ansible.builtin.yum:
-    name: nodejs
-    state: installed
-
