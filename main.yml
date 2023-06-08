@@ -1,4 +1,4 @@
-- name: Setup Robosho Project
+- name: Setup Roboshop Project
   hosts: all
   become: yes
   roles:
