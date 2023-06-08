@@ -4,8 +4,8 @@
   tasks:
      - name: copy MongoDB repo file
        ansible.builtin.copy:
-        src: roboshop.conf
-        dest: /etc/nginx/default.d/roboshop.conf
+        src: mongodb.repo
+        dest: /etc/yum.repos.d/mongodb.repo
 
      - name: Install MongoDB
        ansible.builtin.copy:
